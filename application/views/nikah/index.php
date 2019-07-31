@@ -11,7 +11,11 @@
     width: 100%;
 }
 .content-wrapper {
+<<<<<<< HEAD
     background-color:#fff;
+=======
+   /* background-color:#fff;*/
+>>>>>>> second commit
 }
 .nama-mempelai {
     font-size:18pt;
@@ -27,7 +31,11 @@
 <!-- Content Wrapper. Contains page content -->
 <body class="hold-transition skin-blue layout-top-nav layout-boxed">
     <div class="wrapper">
+<<<<<<< HEAD
         <div class="content-wrapper">
+=======
+        <div class="content-wrapper" style="background:'<?php echo base_url("assets/img/background1.jpg"); ?>'">
+>>>>>>> second commit
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-12">
                 <h1 class="judul-halaman col-sm-12">
@@ -80,7 +88,11 @@
                         <div class="box-body no-padding" style="border:0px solid">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
+<<<<<<< HEAD
                                     <img src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image" style="width:30%;">
+=======
+                                    <img src="<?php echo base_url("assets/img/anden.jpg"); ?>" alt="User Image" style="width:30%;">
+>>>>>>> second commit
                                     <a class="users-list-name nama-mempelai">Andendria Kusuma Dewi</a>
                                     <span class="users-list-date">Puteri pertama dari Bapak fulan dan Ibu Fulanah</span>
                                 </li>
@@ -90,9 +102,15 @@
                         <!-- /.box-body -->
                         <p style="text-align:center;"><strong>Dengan</strong></p>
                         <div class="box-body no-padding" style="border:0px solid">
+<<<<<<< HEAD
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
                                     <img src="https://img.icons8.com/color/96/000000/user-male.png" alt="User Image" style="width:30%;">
+=======
+                            <ul class="users-list   ">
+                                <li style="border:0px solid; width:100%;">
+                                    <img src="<?php echo base_url("assets/img/aji.jpg"); ?>" alt="User Image" style="width:30%;">
+>>>>>>> second commit
                                     <a class="users-list-name nama-mempelai" href="#">Aji Ridwan Alhabsyi</a>
                                     <span class="users-list-date">Putera pertama dari Bapak fulan dan Ibu Fulanah</span>
                                 </li>

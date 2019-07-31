@@ -66,8 +66,13 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
+<<<<<<< HEAD
 	'password' => 'root',
 	'database' => 'sahabatdekat',
+=======
+	'password' => '',
+	'database' => 'salesinsentif_apps',
+>>>>>>> second commit
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
