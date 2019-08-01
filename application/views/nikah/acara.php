@@ -31,7 +31,7 @@
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-12">
                 <h1 class="judul-halaman col-sm-12">
-                    Bismillahirrahmanirrahim  
+                    Rangkaian Acara  
                 </h1>
             </section>
             <!-- Main content -->
@@ -74,29 +74,23 @@
                                 <h5 class="widget-user-desc">Putera pertama dari Bapak fulan dan Ibu fulanah</h5>
                             </div>
                         </div> -->
-                        <p class="judul-halaman col-sm-12">
-                            Assalamu`alaikum Warahmatullahi Wabarakatuh Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan :  
-                        </p>
+                        &nbsp;
                         <div class="box-body no-padding" style="border:0px solid">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
-                                    <img src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image" style="width:30%;">
-                                    <!-- <img src="<?php echo base_url("assets/img/anden.jpg"); ?>" alt="User Image" style="width:30%;"> -->
-                                    <a class="users-list-name nama-mempelai">Andendria Kusuma Dewi</a>
-                                    <span class="users-list-date">Puteri pertama dari Bapak fulan dan Ibu Fulanah</span>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-bell"></span>&nbsp; AKAD NIKAH</p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; Bogor, 6 September 2019</p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-clock-o"></span>&nbsp; Jam 09:00 WIB</p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-map-marker"></span>&nbsp; KUA Bogor Tengah</p>
                                 </li>
                             </ul>
                             <!-- /.users-list -->
                         </div>
                         <!-- /.box-body -->
-                        <p style="text-align:center;"><strong>Dengan</strong></p>
                         <div class="box-body no-padding" style="border:0px solid">
-                            <ul class="users-list   ">
+                            <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
-                                    <img src="https://img.icons8.com/color/96/000000/user-male.png" alt="User Image" style="width:30%;">
-                                    <!-- <img src="<?php echo base_url("assets/img/aji.jpg"); ?>" alt="User Image" style="width:30%;"> -->
-                                    <a class="users-list-name nama-mempelai" href="#">Aji Ridwan Alhabsyi</a>
-                                    <span class="users-list-date">Putera pertama dari Bapak fulan dan Ibu Fulanah</span>
+                                    
                                 </li>
                             </ul>
                             <!-- /.users-list -->
@@ -106,7 +100,9 @@
                         <div class="box-body no-padding" style="border:0px solid;margin-bottom:50px;">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; 07 September 2019</p>
+                                <p class="users-list-name waktu-tempat"><span class="fa fa-bell"></span>&nbsp; RESEPSI </p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; Bogor, 7 September 2019</p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-clock-o"></span>&nbsp; Jam 10:00 WIB</p>
                                     <p class="users-list-name waktu-tempat"><span class="fa fa-map-marker"></span>&nbsp; Masjid Bogor Baru</p>
                                 </li>
                             </ul>

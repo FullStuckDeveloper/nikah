@@ -17,4 +17,14 @@
       		$this->load->view('nikah/index');
       		$this->load->view('layout/footer');
 		}
+
+		function acara(){		
+			$data = array(
+				'title' => "Nikah Cuy!",
+			);
+
+			$this->load->view('layout/header', $data);	
+      		$this->load->view('nikah/acara');
+      		$this->load->view('layout/footer');
+		}
 	}
