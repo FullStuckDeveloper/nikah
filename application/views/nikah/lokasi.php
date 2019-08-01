@@ -31,7 +31,7 @@
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-12">
                 <h1 class="judul-halaman col-sm-12">
-                    Rangkaian Acara  
+                    Lokasi 
                 </h1>
             </section>
             <!-- Main content -->

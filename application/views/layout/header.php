@@ -87,7 +87,7 @@ body {
           <a href="<?php echo site_url('nikah'); ?>" style="width:20%;"><i class="fa fa-home fa-2x"></i> </br>Beranda</a>
           <a href="<?php echo site_url('nikah/acara'); ?>" style="width:20%;"><i class="fa fa-calendar fa-2x"></i> </br>Acara</a>
           <a href="#" style="width:20%;"><i class="fa fa-comments-o fa-2x"></i> </br>Ucapan</a>
-          <a href="#" style="width:20%;"><i class="fa fa-map-marker fa-2x"></i> </br>Lokasi</a>
+          <a href="<?php echo site_url('nikah/lokasi'); ?>" style="width:20%;"><i class="fa fa-map-marker fa-2x"></i> </br>Lokasi</a>
           <a href="#" style="width:20%;"><i class="fa fa-camera-retro fa-2x"></i> </br>Galeri</a>
           <!-- <div class="col-sm-1"></div> -->
         </div>
