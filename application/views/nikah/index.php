@@ -1,7 +1,12 @@
 <style>
+.header-halaman {
+    font-family: 'Allura';
+    font-style: italic;
+    text-align:center;
+}
 .judul-halaman {
-    font-family:Times New Romans;
-    font-style:italic;
+    font-family:Pavanam;
+    font-style:;
     text-align:center;
 }
 .navbar {
@@ -14,14 +19,19 @@
    /* background-color:#fff;*/
 }
 .nama-mempelai {
-    font-size:18pt;
+    font-size:22pt;
+    font-family: 'Alex Brush';
 }
 .waktu-tempat {
     font-size:14pt;
+    font-family: 'Nobile';
 }
 .main-footer {
     padding-top:100px;
     border-top:0px solid #fff;
+}
+.users-list-date {
+    font-size: 10pt;
 }
 </style>
 <!-- Content Wrapper. Contains page content -->
@@ -30,7 +40,7 @@
         <div class="content-wrapper" style="background:'<?php echo base_url("assets/img/background1.jpg"); ?>'">
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-12">
-                <h1 class="judul-halaman col-sm-12">
+                <h1 class="header-halaman col-sm-12" style="font-size: 24pt;">
                     Bismillahirrahmanirrahim  
                 </h1>
             </section>
@@ -75,28 +85,28 @@
                             </div>
                         </div> -->
                         <p class="judul-halaman col-sm-12">
-                            Assalamu`alaikum Warahmatullahi Wabarakatuh Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan :  
+                            <strong>Assalamu`alaikum Warahmatullahi Wabarakatuh</strong> Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan :  
                         </p>
                         <div class="box-body no-padding" style="border:0px solid">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
-                                    <img src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image" style="width:30%;">
-                                    <!-- <img src="<?php echo base_url("assets/img/anden.jpg"); ?>" alt="User Image" style="width:30%;"> -->
+                                    <!-- <img src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image" style="width:30%;"> -->
+                                    <img src="<?php echo base_url("assets/img/anden.jpg"); ?>" alt="User Image" style="width:30%;">
                                     <a class="users-list-name nama-mempelai">Andendria Kusuma Dewi</a>
-                                    <span class="users-list-date">Puteri pertama dari Bapak fulan dan Ibu Fulanah</span>
+                                    <span class="users-list-date">Puteri pertama dari Bapak Moh. Ridwan Devano dan Ibu Elly Libanon</span>
                                 </li>
                             </ul>
                             <!-- /.users-list -->
                         </div>
                         <!-- /.box-body -->
-                        <p style="text-align:center;"><strong>Dengan</strong></p>
+                        <p style="text-align:center;font-family: arial"><strong>dengan</strong></p>
                         <div class="box-body no-padding" style="border:0px solid">
                             <ul class="users-list   ">
                                 <li style="border:0px solid; width:100%;">
-                                    <img src="https://img.icons8.com/color/96/000000/user-male.png" alt="User Image" style="width:30%;">
-                                    <!-- <img src="<?php echo base_url("assets/img/aji.jpg"); ?>" alt="User Image" style="width:30%;"> -->
+                                    <!-- <img src="https://img.icons8.com/color/96/000000/user-male.png" alt="User Image" style="width:30%;"> -->
+                                    <img src="<?php echo base_url("assets/img/aji.jpg"); ?>" alt="User Image" style="width:30%;">
                                     <a class="users-list-name nama-mempelai" href="#">Aji Ridwan Alhabsyi</a>
-                                    <span class="users-list-date">Putera pertama dari Bapak fulan dan Ibu Fulanah</span>
+                                    <span class="users-list-date">Putera pertama dari Bapak Sulaiman dan Ibu Tetih</span>
                                 </li>
                             </ul>
                             <!-- /.users-list -->
@@ -106,8 +116,8 @@
                         <div class="box-body no-padding" style="border:0px solid;margin-bottom:50px;">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; 07 September 2019</p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-map-marker"></span>&nbsp; Masjid Bogor Baru</p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; 07.09.2019</p>
+                                    <p class="users-list-name waktu-tempat"><span class="fa fa-map-marker"></span>&nbsp; Masjid Bogor Baru</br>Bogor</p>
                                 </li>
                             </ul>
                             <!-- /.users-list -->

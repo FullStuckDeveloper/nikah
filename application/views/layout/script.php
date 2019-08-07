@@ -19,4 +19,3 @@
 		$(".select2").select2();     
 	})
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>

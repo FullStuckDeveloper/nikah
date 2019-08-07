@@ -35,4 +35,15 @@
 		{
 			return $this->db->query($q);
 		}
+
+		function list_ucapan()
+		{
+			return $this->db->query("SELECT 
+										* 
+									FROM 
+										tbl_doadanharapan 
+									ORDER BY
+										created_at 
+									DESC")->result();
+		}
 	}

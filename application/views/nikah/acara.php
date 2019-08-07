@@ -1,7 +1,7 @@
 <style>
     .judul-halaman {
-        font-family: Times New Romans;
-        font-style: italic;
+        font-family: 'Allura';
+        /*font-style: italic;*/
         text-align: center;
     }
 
@@ -33,6 +33,12 @@
         font-size: 10pt;
     }
 
+    .countdown {
+        font-family: 'Caesar Dressing';
+        font-size: 28pt;
+        text-align: center;
+    }
+
     table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
@@ -45,12 +51,13 @@
         text-align: left;
         padding: 8px;
     }
+}
 </style>
 <!-- Content Wrapper. Contains page content -->
 
 <body class="hold-transition skin-blue layout-top-nav layout-boxed">
     <div class="wrapper">
-        <div class="content-wrapper" style="background:'<?php echo base_url("assets/img/background1.jpg"); ?>'">
+        <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-12">
                 <h1 class="judul-halaman col-sm-12">
@@ -98,7 +105,7 @@
                             </div>
                         </div> -->
                         &nbsp;
-                        <div class="box-body no-padding col-sm-offset-3 col-sm-3" style="border:0px solid">
+                        <div class="box-body no-padding col-sm-offset-4 col-sm-3" style="border:0px solid">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
                                     <table>
@@ -116,7 +123,9 @@
                                         </tr>
                                         <tr style="border:0px solid;">
                                             <td></td>
-                                            <td><span class="fa fa-map-marker"></span>&nbsp; KUA Bogor Tengah</td>
+                                            <td><span class="fa fa-map-marker"></span>&nbsp; KUA Bogor Tengah </br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Jl. Sempur Kaler No. 106
+                                            </td>
                                         </tr>
                                     </table>
                                 </li>
@@ -124,9 +133,9 @@
                             <!-- /.users-list -->
                         </div>
                         <!-- /.box-body -->
-                        &nbsp;
+                        <hr class="col-sm-12" style="border-top:2px dashed #3c8dbc;">
                         <!-- /.box-body -->
-                        <div class="box-body no-padding col-sm-3" style="border:0px solid;margin-bottom:50px;">
+                        <div class="box-body no-padding col-sm-offset-4 col-sm-3" style="border:0px solid;margin-bottom:50px;">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
                                     <table>
@@ -144,12 +153,20 @@
                                         </tr>
                                         <tr style="border:0px solid;">
                                             <td></td>
-                                            <td><span class="fa fa-map-marker"></span>&nbsp; Masjid Bogor Baru</td>
+                                            <td><span class="fa fa-map-marker"></span>&nbsp; Masjid Bogor Baru </br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Jl. Mesjid Bogor Baru, </br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Kecamatan Bogor Tengah, </br>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Kota Bogor, Jawa Barat
+                                            </td>
                                         </tr>
                                     </table>
                                 </li>
                             </ul>
                             <!-- /.users-list -->
+                        </div>
+                        <hr class="col-sm-12" style="border-top:2px dashed #3c8dbc;">
+                        <div class="box-body no-padding col-sm-12" style="border:0px solid;margin-bottom:50px;">
+                            <p class="countdown" id="demo"></p>
                         </div>
 
                         <!-- /.box-body -->
@@ -162,4 +179,34 @@
                         <!-- <div class="box-body">
                                   
                             </div>
-                        </div
+                        </div>-->
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sep 7, 2019 10:10:10").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>

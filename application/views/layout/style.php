@@ -9,3 +9,8 @@
 <link rel="stylesheet" href="<?php echo base_url("assets/plugins/datepicker/datepicker3.css"); ?>" type="text/css" />
 <link rel="stylesheet" href="<?php echo base_url("assets/plugins/iCheck/all.css"); ?>" type="text/css" />
 <link rel="stylesheet" href="<?php echo base_url("assets/css/buttons.dataTables.min.css"); ?>" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Nobile' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Pavanam' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Caesar Dressing' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>

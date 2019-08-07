@@ -1,6 +1,6 @@
 <style>
 .judul-halaman {
-    font-family:Times New Romans;
+    font-family:'Allura';
     font-style:italic;
     text-align:center;
 }
@@ -75,41 +75,13 @@
                             </div>
                         </div> -->
                         &nbsp;
+                        <div class="box box-widget">
                         <div class="box-body no-padding" style="border:0px solid">
-                            <ul class="users-list clearfix">
-                                <li style="border:0px solid; width:100%;">
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-bell"></span>&nbsp; AKAD NIKAH</p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; Bogor, 6 September 2019</p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-clock-o"></span>&nbsp; Jam 09:00 WIB</p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-map-marker"></span>&nbsp; KUA Bogor Tengah</p>
-                                </li>
-                            </ul>
-                            <!-- /.users-list -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4276215458217!2d106.80835351473385!3d-6.593654595231552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d117dd69f9%3A0xa27ed56d57e94517!2sMasjid+Bogor+Baru!5e0!3m2!1sen!2sid!4v1565004229701!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
                         </div>
                         <!-- /.box-body -->
-                        <div class="box-body no-padding" style="border:0px solid">
-                            <ul class="users-list clearfix">
-                                <li style="border:0px solid; width:100%;">
-                                    
-                                </li>
-                            </ul>
-                            <!-- /.users-list -->
-                        </div>
-                        &nbsp;
-                        <!-- /.box-body -->
-                        <div class="box-body no-padding" style="border:0px solid;margin-bottom:50px;">
-                            <ul class="users-list clearfix">
-                                <li style="border:0px solid; width:100%;">
-                                <p class="users-list-name waktu-tempat"><span class="fa fa-bell"></span>&nbsp; RESEPSI </p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; Bogor, 7 September 2019</p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-clock-o"></span>&nbsp; Jam 10:00 WIB</p>
-                                    <p class="users-list-name waktu-tempat"><span class="fa fa-map-marker"></span>&nbsp; Masjid Bogor Baru</p>
-                                </li>
-                            </ul>
-                            <!-- /.users-list -->
-                        </div>
-
-                        <!-- /.box-body -->
+                        
               <!--/.box -->
                         <!-- <div class="box"> -->
                         <!-- <div class="box-header">
@@ -120,7 +92,28 @@
                                   
                             </div>
                         </div> -->
+                        &nbsp;</br></br></br>
                     </div><!-- /.col -->
                 </div><!-- /.row (main row) -->
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
+<!-- <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -6.5936546, lng: 106.8105422};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 16, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhrzQB1qGro3Nzel4o2FDoqqguea7eT-o&callback=initMap">
+    </script> -->

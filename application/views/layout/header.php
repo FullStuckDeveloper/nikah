@@ -54,6 +54,14 @@ body {
   border: 0px solid green;
   padding: 10px;
 }
+.content-wrapper {
+  background-color: #fff;
+}
+.content-header > h1 {
+    margin-top:50px;
+    font-size: 30pt;
+    font-style: bold;
+}
 </style>
 </head>
 <header class="main-header">
@@ -84,11 +92,21 @@ body {
         <!-- </ul> -->
         <div class="navbar col-sm-12">
           <!-- <div class="col-sm-1"></div> -->
-          <a href="<?php echo site_url('nikah'); ?>" style="width:20%;"><i class="fa fa-home fa-2x"></i> </br>Beranda</a>
-          <a href="<?php echo site_url('nikah/acara'); ?>" style="width:20%;"><i class="fa fa-calendar fa-2x"></i> </br>Acara</a>
-          <a href="<?php echo site_url('nikah/ucapan'); ?>" style="width:20%;"><i class="fa fa-comments-o fa-2x"></i> </br>Ucapan</a>
-          <a href="<?php echo site_url('nikah/lokasi'); ?>" style="width:20%;"><i class="fa fa-map-marker fa-2x"></i> </br>Lokasi</a>
-          <a href="<?php echo site_url('nikah/galeri'); ?>" style="width:20%;"><i class="fa fa-camera-retro fa-2x"></i> </br>Galeri</a>
+          <a href="<?php echo site_url('nikah'); ?>" style="width:20%;"><i class="fa fa-home fa-2x"></i> 
+            <!-- </br>Beranda -->
+          </a>
+          <a href="<?php echo site_url('nikah/acara'); ?>" style="width:20%;"><i class="fa fa-calendar fa-2x"></i> 
+            <!-- </br>Acara -->
+          </a>
+          <a href="<?php echo site_url('nikah/ucapan'); ?>" style="width:20%;"><i class="fa fa-comments-o fa-2x"></i> 
+            <!-- </br>Ucapan -->
+          </a>
+          <a href="<?php echo site_url('nikah/lokasi'); ?>" style="width:20%;"><i class="fa fa-map-marker fa-2x"></i> 
+            <!-- </br>Lokasi -->
+          </a>
+          <a href="<?php echo site_url('nikah/galeri'); ?>" style="width:20%;"><i class="fa fa-camera-retro fa-2x"></i> 
+            <!-- </br>Galeri -->
+          </a>
           <!-- <div class="col-sm-1"></div> -->
         </div>
         <!-- <div class="navbar width100">

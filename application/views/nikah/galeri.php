@@ -1,6 +1,6 @@
 <style>
 	.judul-halaman {
-		font-family: Times New Romans;
+		font-family: 'Allura';
 		font-style: italic;
 		text-align: center;
 	}
@@ -102,7 +102,8 @@
 							<!-- /.box-header -->
 							<div class="box-body">
 								<img class="img-responsive pad" src="<?php echo base_url("assets/img/galeri1.png"); ?>" alt="Photo">
-								<p>Waktu kita makan di Ekalokasari</p>
+								<p>Sebenernya sifat kita teh sama, layaknya anak kembar.</p>
+								<p>Kitu weh kita mah :)</p>
 								<!-- <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
               <span class="pull-right text-muted">127 likes - 3 comments</span> -->
@@ -128,7 +129,37 @@
 							<!-- /.box-header -->
 							<div class="box-body">
 								<img class="img-responsive pad" src="<?php echo base_url("assets/img/galeri2.png"); ?>" alt="Photo">
-								<p>Nikahan Kiki temennya Anden</p>
+								<p>Sama-sama anak pertama, ego nya gede pun sama-sama.</p>
+								<p>Jadi kalo lagi gak mau ngalah juga sama-sama.</p>
+								<p>Ribut sudah biasa, yang penting tetep sama-sama.</p>
+								<p>Happy Weekend!</p>
+								<p><strong>*Catatan:</strong> Apa yang kalian liat ini hanya saat lagi akur aja, karena kalo lagi gak akur, gak akan diposting :D</p>
+								<!-- <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">127 likes - 3 comments</span> -->
+							</div>
+						</div>
+						<div class="box box-widget">
+							<div class="box-header with-border">
+								<div class="user-block">
+									<img class="img-circle" src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image">
+									<span class="username"><a href="#">Anden & Aji</a></span>
+									<span class="description">26 Agustus 2018</span>
+								</div>
+								<!-- /.user-block -->
+								<!-- <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
+                  <i class="fa fa-circle-o"></i></button>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div> -->
+								<!-- /.box-tools -->
+							</div>
+							<!-- /.box-header -->
+							<div class="box-body">
+								<img class="img-responsive pad" src="<?php echo base_url("assets/img/galeri3.png"); ?>" alt="Photo">
+								<p>Abis dari kondangan, dan panas mencekam, ngadem dulu di tempat pertama kali kita ketemu (lagi).</p>
 								<!-- <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
               <span class="pull-right text-muted">127 likes - 3 comments</span> -->

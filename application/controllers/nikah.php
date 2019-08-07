@@ -6,6 +6,8 @@
 		function __construct(){
 			parent::__construct();
 
+			$this->load->model('modelNikah');
+
 		}
 
 		function index(){		
@@ -30,11 +32,23 @@
 
 		function ucapan(){		
 			$data = array(
-				'title' => "Lokasi - Nikah Cuy!",
+				'title' => "Doa & Harapan - Nikah Cuy!",
 			);
 
 			$this->load->view('layout/header', $data);	
-      		$this->load->view('nikah/lokasi');
+      		$this->load->view('nikah/ucapan');
+      		$this->load->view('layout/footer');
+		}
+
+
+		function list_ucapan(){		
+			$data = array(
+				'title' => "List Ucapan - Nikah Cuy!",
+				'data_ucapan' => $this->modelNikah->list_ucapan(),
+			);
+
+			$this->load->view('layout/header', $data);	
+      		$this->load->view('nikah/list_ucapan');
       		$this->load->view('layout/footer');
 		}
 
@@ -56,5 +70,17 @@
 			$this->load->view('layout/header', $data);	
       		$this->load->view('nikah/galeri');
       		$this->load->view('layout/footer');
+		}
+
+		function buat_ucapan(){
+			$data=array(
+				'nama'=>$this->input->post('nama'),
+				'ucapan'=>$this->input->post('ucapan'),
+				'created_at'=>date('Y-m-d H:i:s'),
+			);
+
+			$this->modelNikah->insertData('tbl_doadanharapan', $data);
+			redirect('nikah/list_ucapan');
+
 		}
 	}
