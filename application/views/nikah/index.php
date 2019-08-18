@@ -91,9 +91,9 @@
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
                                     <!-- <img src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image" style="width:30%;"> -->
-                                    <img src="<?php echo base_url("assets/img/anden.jpg"); ?>" alt="User Image" style="width:30%;">
+                                    <img src="<?php echo base_url("assets/img/anden.png"); ?>" alt="User Image" style="width:30%;">
                                     <a class="users-list-name nama-mempelai">Andendria Kusuma Dewi</a>
-                                    <span class="users-list-date">Puteri pertama dari Bapak Moh. Ridwan Devano dan Ibu Elly Libanon</span>
+                                    <span class="users-list-date" style="color: #000">Puteri pertama dari Bapak Moh. Ridwan Devano dan Ibu Elly Libanon</span>
                                 </li>
                             </ul>
                             <!-- /.users-list -->
@@ -104,9 +104,9 @@
                             <ul class="users-list   ">
                                 <li style="border:0px solid; width:100%;">
                                     <!-- <img src="https://img.icons8.com/color/96/000000/user-male.png" alt="User Image" style="width:30%;"> -->
-                                    <img src="<?php echo base_url("assets/img/aji.jpg"); ?>" alt="User Image" style="width:30%;">
+                                    <img src="<?php echo base_url("assets/img/siluetaji4.png"); ?>" alt="User Image" style="width:30%;">
                                     <a class="users-list-name nama-mempelai" href="#">Aji Ridwan Alhabsyi</a>
-                                    <span class="users-list-date">Putera pertama dari Bapak Sulaiman dan Ibu Tetih</span>
+                                    <span class="users-list-date" style="color: #000">Putera pertama dari Bapak Sulaiman dan Ibu Tetih</span>
                                 </li>
                             </ul>
                             <!-- /.users-list -->

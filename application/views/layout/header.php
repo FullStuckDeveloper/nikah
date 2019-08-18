@@ -55,7 +55,7 @@ body {
   padding: 10px;
 }
 .content-wrapper {
-  background-color: #fff;
+  background-color: #AED6F1;
 }
 .content-header > h1 {
     margin-top:50px;

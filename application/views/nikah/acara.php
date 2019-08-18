@@ -34,8 +34,8 @@
     }
 
     .countdown {
-        font-family: 'Caesar Dressing';
-        font-size: 28pt;
+        font-family: 'Annie Use Your Telescope';
+        font-size: 34pt;
         text-align: center;
     }
 
