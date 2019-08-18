@@ -15,9 +15,6 @@
     bottom: 0;
     width: 100%;
 }
-.content-wrapper {
-   /* background-color:#fff;*/
-}
 .nama-mempelai {
     font-size:22pt;
     font-family: 'Alex Brush';
@@ -37,7 +34,7 @@
 <!-- Content Wrapper. Contains page content -->
 <body class="hold-transition skin-blue layout-top-nav layout-boxed">
     <div class="wrapper">
-        <div class="content-wrapper" style="background:'<?php echo base_url("assets/img/background1.jpg"); ?>'">
+        <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-12">
                 <h1 class="header-halaman col-sm-12" style="font-size: 24pt;">

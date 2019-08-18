@@ -12,10 +12,6 @@
         width: 100%;
     }
 
-    .content-wrapper {
-        /* background-color:#fff;*/
-    }
-
     .nama-mempelai {
         font-size: 18pt;
     }

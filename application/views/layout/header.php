@@ -55,7 +55,9 @@ body {
   padding: 10px;
 }
 .content-wrapper {
+  background-image: url("../assets/img/background5.png");
   background-color: #AED6F1;
+  background-attachment: fixed;
 }
 .content-header > h1 {
     margin-top:50px;
