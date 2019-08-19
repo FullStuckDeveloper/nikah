@@ -55,8 +55,8 @@
     <div class="wrapper">
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
-            <section class="content-header col-sm-12">
-                <h1 class="judul-halaman col-sm-12">
+            <section class="content-header col-sm-offset-4 col-sm-4">
+                <h1 class="judul-halaman col-sm-12" style="border:0px solid">
                     Rangkaian Acara
                 </h1>
             </section>

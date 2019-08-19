@@ -36,8 +36,8 @@
     <div class="wrapper">
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
-            <section class="content-header col-sm-12">
-                <h1 class="header-halaman col-sm-12" style="font-size: 24pt;">
+            <section class="content-header col-sm-offset-4 col-sm-4">
+                <h1 class="header-halaman col-sm-12" style="font-size: 24pt;background-color: rgba(255,255,255, 0.7);">
                     Bismillahirrahmanirrahim  
                 </h1>
             </section>

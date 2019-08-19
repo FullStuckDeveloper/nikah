@@ -29,7 +29,7 @@
     <div class="wrapper">
         <div class="content-wrapper" style="background:'<?php echo base_url("assets/img/background1.jpg"); ?>'">
             <!-- Content Header (Page header) -->
-            <section class="content-header col-sm-12">
+            <section class="content-header col-sm-offset-4 col-sm-4">
                 <h1 class="judul-halaman col-sm-12">
                     Lokasi 
                 </h1>

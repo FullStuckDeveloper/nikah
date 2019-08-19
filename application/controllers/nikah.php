@@ -33,6 +33,7 @@
 		function ucapan(){		
 			$data = array(
 				'title' => "Doa & Harapan - Nikah Cuy!",
+				'data_ucapan' => $this->modelNikah->list_ucapan(),
 			);
 
 			$this->load->view('layout/header', $data);	
@@ -80,7 +81,7 @@
 			);
 
 			$this->modelNikah->insertData('tbl_doadanharapan', $data);
-			redirect('nikah/list_ucapan');
+			redirect('nikah/ucapan');
 
 		}
 	}

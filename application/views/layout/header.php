@@ -55,11 +55,15 @@ body {
   padding: 10px;
 }
 .content-wrapper {
-  background-image: url("../assets/img/background5.png");
+  background-image: url(<?php echo base_url("assets/img/background1024op50.png"); ?>);
   background-color: #AED6F1;
   background-attachment: fixed;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+.judul-halaman{
+  background-image: url(<?php echo base_url("assets/img/judul.png"); ?>);
+  width: 100%;
 }
 .content-header > h1 {
     margin-top:50px;
