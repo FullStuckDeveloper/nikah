@@ -58,6 +58,8 @@ body {
   background-image: url("../assets/img/background5.png");
   background-color: #AED6F1;
   background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 .content-header > h1 {
     margin-top:50px;
