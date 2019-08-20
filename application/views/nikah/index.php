@@ -1,52 +1,60 @@
 <style>
-.header-halaman {
-    font-family: 'Allura';
-    font-style: italic;
-    text-align:center;
-    background-image: url(<?php echo base_url("assets/img/judul.png")?>);
-    width: 100%;
-}
-.judul-halaman {
-    font-family:Pavanam;
-    font-style:;
-    text-align:center;
-}
-.pembuka {
-    font-family:Pavanam;
-    font-style:;
-    text-align:center;
-    font-size: 12pt;
-}
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-.nama-mempelai {
-    font-size:22pt;
-    font-family: 'Alex Brush';
-}
-.waktu-tempat {
-    font-size:14pt;
-    font-family: 'Nobile';
-}
-.main-footer {
-    padding-top:100px;
-    border-top:0px solid #fff;
-}
-.users-list-date {
-    font-size: 10pt;
-}
+    .header-halaman {
+        font-family: 'Allura';
+  ßßß */
+        text-align: center;
+        background-image: url(<?php echo base_url("assets/img/judul.png") ?>);
+        width: 100%;
+    }
+
+    .judul-halaman {
+        font-family: Pavanam;
+        font-style: ;
+        text-align: center;
+    }
+
+    .pembuka {
+        font-family: Pavanam;
+        font-style: ;
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .nama-mempelai {
+        font-size: 22pt;
+        font-family: 'Alex Brush';
+    }
+
+    .waktu-tempat {
+        font-size: 14pt;
+        font-family: 'Nobile';
+    }
+
+    .main-footer {
+        padding-top: 100px;
+        border-top: 0px solid #fff;
+    }
+
+    .users-list-date {
+        font-size: 10pt;
+    }
 </style>
 <!-- Content Wrapper. Contains page content -->
+
 <body class="hold-transition skin-blue layout-top-nav layout-boxed">
     <div class="wrapper">
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-offset-4 col-sm-4">
                 <h1 class="header-halaman col-sm-12" style="font-size: 29pt;">
-                    Bismillahirrahmanirrahim  
+                    Bismillahirrahmanirrahim
                 </h1>
             </section>
             <!-- Main content -->
@@ -90,7 +98,7 @@
                             </div>
                         </div> -->
                         <p class="pembuka col-sm-12">
-                            <strong>Assalamu`alaikum Warahmatullahi Wabarakatuh</strong> Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan :  
+                            <strong>Assalamu`alaikum Warahmatullahi Wabarakatuh</strong> Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan :
                         </p>
                         <div class="box-body no-padding" style="border:0px solid">
                             <ul class="users-list clearfix">
@@ -129,13 +137,13 @@
                         </div>
 
                         <!-- /.box-body -->
-              <!--/.box -->
+                        <!--/.box -->
                         <!-- <div class="box"> -->
                         <!-- <div class="box-header">
                   
                         </div> -->
                         <!-- /.box-header -->
-                            <!-- <div class="box-body">
+                        <!-- <div class="box-body">
                                   
                             </div>
                         </div> -->

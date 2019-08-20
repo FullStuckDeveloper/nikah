@@ -1,10 +1,4 @@
 <style>
-	.judul-halaman {
-		font-family: 'Allura';
-		font-style: italic;
-		text-align: center;
-	}
-
 	.navbar {
 		overflow: hidden;
 		position: fixed;
@@ -101,11 +95,11 @@
 							</div>
 							<!-- /.box-header -->
 							<div class="box-body" style="border:0px solid">
-							<div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
-								<img class="img-responsive" src="<?php echo base_url("assets/img/galeri1.png"); ?>" alt="Photo">&nbsp;
-								<p>Sebenernya sifat kita teh sama, layaknya anak kembar.</p>
-								<p>Kitu weh kita mah :)</p>
-							</div>
+								<div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+									<img class="img-responsive" src="<?php echo base_url("assets/img/galeri1.png"); ?>" alt="Photo">&nbsp;
+									<p>Sebenernya sifat kita teh sama, layaknya anak kembar.</p>
+									<p>Kitu weh kita mah :)</p>
+								</div>
 								<!-- <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
               <span class="pull-right text-muted">127 likes - 3 comments</span> -->
@@ -130,14 +124,14 @@
 							</div>
 							<!-- /.box-header -->
 							<div class="box-body">
-							<div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
-								<img class="img-responsive" src="<?php echo base_url("assets/img/galeri2.png"); ?>" alt="Photo">&nbsp;
-								<p>Sama-sama anak pertama, ego nya gede pun sama-sama.</p>
-								<p>Jadi kalo lagi gak mau ngalah juga sama-sama.</p>
-								<p>Ribut sudah biasa, yang penting tetep sama-sama.</p>
-								<p>Happy Weekend!</p>
-								<p><strong>*Catatan:</strong> Apa yang kalian liat ini hanya saat lagi akur aja, karena kalo lagi gak akur, gak akan diposting :D</p>
-							</div>
+								<div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+									<img class="img-responsive" src="<?php echo base_url("assets/img/galeri2.png"); ?>" alt="Photo">&nbsp;
+									<p>Sama-sama anak pertama, ego nya gede pun sama-sama.</p>
+									<p>Jadi kalo lagi gak mau ngalah juga sama-sama.</p>
+									<p>Ribut sudah biasa, yang penting tetep sama-sama.</p>
+									<p>Happy Weekend!</p>
+									<p><strong>*Catatan:</strong> Apa yang kalian liat ini hanya saat lagi akur aja, karena kalo lagi gak akur, gak akan diposting :D</p>
+								</div>
 								<!-- <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
               <span class="pull-right text-muted">127 likes - 3 comments</span> -->
@@ -162,10 +156,10 @@
 							</div>
 							<!-- /.box-header -->
 							<div class="box-body">
-							<div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
-								<img class="img-responsive" src="<?php echo base_url("assets/img/galeri3.png"); ?>" alt="Photo">&nbsp;
-								<p>Abis dari kondangan, dan panas mencekam, ngadem dulu di tempat pertama kali kita ketemu (lagi).</p>
-							</div>
+								<div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+									<img class="img-responsive" src="<?php echo base_url("assets/img/galeri3.png"); ?>" alt="Photo">&nbsp;
+									<p>Abis dari kondangan, dan panas mencekam, ngadem dulu di tempat pertama kali kita ketemu (lagi).</p>
+								</div>
 								<!-- <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Share</button>
               <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
               <span class="pull-right text-muted">127 likes - 3 comments</span> -->
@@ -214,7 +208,7 @@
                 </div>
               </form>
 			</div> -->
-			&nbsp;</br></br></br>
+						&nbsp;</br></br></br>
 						<!-- /.box-footer -->
 						<!-- </div> -->
 						<!-- /.box -->

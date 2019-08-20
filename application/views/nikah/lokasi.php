@@ -1,37 +1,37 @@
 <style>
-.judul-halaman {
-    font-family:'Allura';
-    font-style:italic;
-    text-align:center;
-}
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-.content-wrapper {
-   /* background-color:#fff;*/
-}
-.nama-mempelai {
-    font-size:18pt;
-}
-.waktu-tempat {
-    font-size:14pt;
-}
-.main-footer {
-    padding-top:100px;
-    border-top:0px solid #fff;
-}
+    .navbar {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .content-wrapper {
+        /* background-color:#fff;*/
+    }
+
+    .nama-mempelai {
+        font-size: 18pt;
+    }
+
+    .waktu-tempat {
+        font-size: 14pt;
+    }
+
+    .main-footer {
+        padding-top: 100px;
+        border-top: 0px solid #fff;
+    }
 </style>
 <!-- Content Wrapper. Contains page content -->
+
 <body class="hold-transition skin-blue layout-top-nav layout-boxed">
     <div class="wrapper">
         <div class="content-wrapper" style="background:'<?php echo base_url("assets/img/background1.jpg"); ?>'">
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-offset-4 col-sm-4">
                 <h1 class="judul-halaman col-sm-12">
-                    Lokasi 
+                    Lokasi
                 </h1>
             </section>
             <!-- Main content -->
@@ -75,20 +75,20 @@
                             </div>
                         </div> -->
                         &nbsp;
-                        <div class="box box-widget">
-                        <div class="box-body no-padding" style="border:0px solid">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4276215458217!2d106.80835351473385!3d-6.593654595231552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d117dd69f9%3A0xa27ed56d57e94517!2sMasjid+Bogor+Baru!5e0!3m2!1sen!2sid!4v1565004229701!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
+                        <div class="box box-widget" style="background-color:rgb(255, 255, 255, 0.7)">
+                            <div class="box-body no-padding" style="border:0px solid">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4276215458217!2d106.80835351473385!3d-6.593654595231552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d117dd69f9%3A0xa27ed56d57e94517!2sMasjid+Bogor+Baru!5e0!3m2!1sen!2sid!4v1565004229701!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
                         </div>
                         <!-- /.box-body -->
-                        
-              <!--/.box -->
+
+                        <!--/.box -->
                         <!-- <div class="box"> -->
                         <!-- <div class="box-header">
                   
                         </div> -->
                         <!-- /.box-header -->
-                            <!-- <div class="box-body">
+                        <!-- <div class="box-body">
                                   
                             </div>
                         </div> -->
@@ -97,7 +97,7 @@
                 </div><!-- /.row (main row) -->
             </section><!-- /.content -->
         </div><!-- /.content-wrapper -->
-<!-- <script>
+        <!-- <script>
 // Initialize and add the map
 function initMap() {
   // The location of Uluru
