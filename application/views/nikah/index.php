@@ -3,11 +3,19 @@
     font-family: 'Allura';
     font-style: italic;
     text-align:center;
+    background-image: url(<?php echo base_url("assets/img/judul.png")?>);
+    width: 100%;
 }
 .judul-halaman {
     font-family:Pavanam;
     font-style:;
     text-align:center;
+}
+.pembuka {
+    font-family:Pavanam;
+    font-style:;
+    text-align:center;
+    font-size: 12pt;
 }
 .navbar {
     overflow: hidden;
@@ -37,7 +45,7 @@
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
             <section class="content-header col-sm-offset-4 col-sm-4">
-                <h1 class="header-halaman col-sm-12" style="font-size: 24pt;background-color: rgba(255,255,255, 0.7);">
+                <h1 class="header-halaman col-sm-12" style="font-size: 29pt;">
                     Bismillahirrahmanirrahim  
                 </h1>
             </section>
@@ -81,14 +89,14 @@
                                 <h5 class="widget-user-desc">Putera pertama dari Bapak fulan dan Ibu fulanah</h5>
                             </div>
                         </div> -->
-                        <p class="judul-halaman col-sm-12">
+                        <p class="pembuka col-sm-12">
                             <strong>Assalamu`alaikum Warahmatullahi Wabarakatuh</strong> Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan :  
                         </p>
                         <div class="box-body no-padding" style="border:0px solid">
                             <ul class="users-list clearfix">
                                 <li style="border:0px solid; width:100%;">
                                     <!-- <img src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image" style="width:30%;"> -->
-                                    <img src="<?php echo base_url("assets/img/anden.png"); ?>" alt="User Image" style="width:30%;">
+                                    <img src="<?php echo base_url("assets/img/anden.png"); ?>" alt="User Image" style="width:35%;">
                                     <a class="users-list-name nama-mempelai">Andendria Kusuma Dewi</a>
                                     <span class="users-list-date" style="color: #000">Puteri pertama dari Bapak Moh. Ridwan Devano dan Ibu Elly Libanon</span>
                                 </li>
@@ -101,7 +109,7 @@
                             <ul class="users-list   ">
                                 <li style="border:0px solid; width:100%;">
                                     <!-- <img src="https://img.icons8.com/color/96/000000/user-male.png" alt="User Image" style="width:30%;"> -->
-                                    <img src="<?php echo base_url("assets/img/siluetaji4.png"); ?>" alt="User Image" style="width:30%;">
+                                    <img src="<?php echo base_url("assets/img/siluetaji4.png"); ?>" alt="User Image" style="width:35%;">
                                     <a class="users-list-name nama-mempelai" href="#">Aji Ridwan Alhabsyi</a>
                                     <span class="users-list-date" style="color: #000">Putera pertama dari Bapak Sulaiman dan Ibu Tetih</span>
                                 </li>
