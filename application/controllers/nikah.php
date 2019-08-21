@@ -22,6 +22,15 @@ class Nikah extends CI_Controller
 		$this->load->view('layout/footer');
 	}
 
+	function swiper()
+	{
+		$data = array(
+			'title' => "Bismillahirrahmanirrahim - Anden & Aji",
+		);
+
+		$this->load->view('nikah/swiper', $data);
+	}
+
 	function acara()
 	{
 		$data = array(

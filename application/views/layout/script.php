@@ -12,6 +12,7 @@
 <script src="<?php echo base_url("assets/js/buttons.html5.min.js"); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url("assets/js/dataTables.buttons.min.js"); ?>" type="text/javascript"></script>
 <script src="<?php echo base_url("assets/plugins/iCheck/icheck.min.js"); ?>" type="text/javascript"></script>
+<script src="<?php echo base_url("assets/js/swiper.min.js"); ?>" type="text/javascript"></script>
 <script src="https://github.com/pipwerks/PDFObject/blob/master/pdfobject.min.js"></script>
 <script>PDFObject.embed("./assets/files/pdf/Perjanjian_Kerjasama_Aplikasi_Dashboard.pdf", "#example1");</script>
 <script type="text/javascript">
