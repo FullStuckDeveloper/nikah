@@ -164,6 +164,8 @@
                         <div class="box-body no-padding col-sm-12" style="border:0px solid;margin-bottom:50px;">
                             <p class="countdown" id="demo"></p>
                         </div>
+                    </div>
+            </section>
 
                         <!-- /.box-body -->
                         <!--/.box -->

@@ -1,7 +1,6 @@
 <style>
     .header-halaman {
         font-family: 'Allura';
-  ßßß */
         text-align: center;
         background-image: url(<?php echo base_url("assets/img/judul.png") ?>);
         width: 100%;
