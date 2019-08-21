@@ -156,17 +156,17 @@
 
 <body>
     <!-- Swiper -->
-    <div class="swiper-container gallery-top">
+    <div class="swiper-container gallery-top">    
         <div class="swiper-wrapper">
             <div class="swiper-slide scroll">
                 <div class="col-sm-12" style="border:0px solid">
                     <section class="content-header col-sm-offset-4 col-sm-4">
+                        <audio controls autoplay="autoplay" loop="loop" style="display: none;">
+                            <source src="<?php echo base_url("assets/matakehati.mp3"); ?>" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
                         <h1 class="header-halaman col-sm-12" style="font-size:22pt;"">
                             Bismillahirrahmanirrahim
-                            <audio controls autoplay="autoplay" style="display: none;">
-                                <source src="<?php echo base_url("assets/matakehati.mp3"); ?>" type="audio/mpeg">
-                                Your browser does not support the audio element.
-                            </audio>
                         </h1>
                     </section>
                     <section class="content">
