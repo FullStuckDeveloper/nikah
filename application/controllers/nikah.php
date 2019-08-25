@@ -26,6 +26,7 @@ class Nikah extends CI_Controller
 	{
 		$data = array(
 			'title' => "Bismillahirrahmanirrahim - Anden & Aji",
+			'data_ucapan' => $this->modelNikah->list_ucapan(),
 		);
 
 		$this->load->view('nikah/swiper', $data);
@@ -98,6 +99,6 @@ class Nikah extends CI_Controller
 		);
 
 		$this->modelNikah->insertData('tbl_doadanharapan', $data);
-		redirect('nikah/ucapan');
+		redirect('nikah/swiper#ucapan');
 	}
 }

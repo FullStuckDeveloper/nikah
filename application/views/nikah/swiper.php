@@ -151,6 +151,21 @@
             text-align: left;
             padding: 8px;
         }
+
+        .list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .list li {
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+        .box-comments .comment-text {
+            margin-left: 10px;
+        }
     </style>
 </head>
 
@@ -158,10 +173,10 @@
     <!-- Swiper -->
     <div class="swiper-container gallery-top">    
         <div class="swiper-wrapper">
-            <div class="swiper-slide scroll">
+            <div class="swiper-slide scroll" id="home">
                 <div class="col-sm-12" style="border:0px solid">
                     <section class="content-header col-sm-offset-4 col-sm-4">
-                        <audio controls autoplay="autoplay" loop="loop" style="display: none;">
+                        <audio> <!--controls autoplay="autoplay" loop="loop" style="display: ;"-->
                             <source src="<?php echo base_url("assets/matakehati.mp3"); ?>" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
@@ -199,7 +214,7 @@
                                 </div>
                                 &nbsp;
                                 <!-- /.box-body -->
-                                <div class="box-body no-padding" style="border:0px solid; margin-bottom:50px;">
+                                <div class="box-body no-padding" style="border:0px solid;">
                                     <ul class="users-list clearfix">
                                         <li style="border:0px solid; width:100%;">
                                             <p class="users-list-name waktu-tempat"><span class="fa fa-calendar"></span>&nbsp; 07.09.2019</p>
@@ -213,7 +228,7 @@
                     </section><!-- /.content -->
                 </div>
             </div>
-            <div class="swiper-slide scroll">
+            <div class="swiper-slide scroll" id="acara">
                 <div class="col-sm-12" style="border:0px solid">
                     <section class="content-header col-sm-offset-4 col-sm-4">
                         <h1 class="judul-halaman col-sm-12" style="border:0px solid">
@@ -285,7 +300,7 @@
 
                                 <hr class="col-sm-12" style="border-top:2px dashed #3c8dbc;">
 
-                                <div class="box-body no-padding col-sm-12" style="border:0px solid;margin-bottom:50px;">
+                                <div class="box-body no-padding col-sm-12" style="border:0px solid;">
                                     <p class="countdown" id="demo"></p>
                                 </div>
                             </div>
@@ -293,9 +308,9 @@
                     </section>
                 </div>
             </div>
-            <div class="swiper-slide scroll">
+            <div class="swiper-slide scroll" id="ucapan">
                 <div class="col-sm-12" style="border:0px solid">
-                    <section class="content-header col-sm-12">
+                    <section class="content-header col-sm-offset-4 col-sm-4">
                         <h1 class="judul-halaman col-sm-12">
                             Doa & Harapan
                         </h1>
@@ -325,13 +340,41 @@
                                         </div><!-- /.box-footer -->
                                     </form>
                                 </div><!-- /.box -->
+                                <hr class="col-sm-12" style="border-top:2px dashed #3c8dbc;">
+                                <div class="box box-widget">
+                                    <div class='box-footer box-comments'>
+                                        <ul class="list">
+                                        <?php
+                                            if (isset($data_ucapan)) {
+                                                foreach ($data_ucapan as $data) {
+                                        ?>
+                                            <li style="border-bottom: 1px solid #999999;">
+                                            <div class='box-comment' style="border:0px solid">
+                                                <div class='comment-text'>
+                                                    <span class="username">
+                                                        <?php echo $data->nama; ?>
+                                                    </span>
+                                                    <?php echo $data->ucapan; ?></br>
+                                                    <div style="font-size: 8pt; font-style: italic; color: #999"><?php echo' (' .date('d/m', strtotime($data->created_at)) .')'?></div>
+                                                </div>
+                                            </div>
+                                            <!-- <?php echo $data->nama .'-' .$data->ucapan;?> -->
+                                                
+                                            </li>
+                                        <?php }
+                                            }
+                                        ?>
+                                        </ul>
+                                        <button id="next" class="btn btn-info" style="">Show More</button>
+                                    </div>
+                                </div><!-- /.box -->
                             </div>
-                            &nbsp;</br></br></br>
+                            &nbsp;
                         </div><!-- /.col -->
                     </section><!-- /.content -->
                 </div>
             </div>
-            <div class="swiper-slide scroll">
+            <div class="swiper-slide scroll" id="lokasi">
                 <div class="col-sm-12" style="border:0px solid">
                     <section class="content-header col-sm-offset-4 col-sm-4">
                         <h1 class="judul-halaman col-sm-12">
@@ -348,13 +391,12 @@
                                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4276215458217!2d106.80835351473385!3d-6.593654595231552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c5d117dd69f9%3A0xa27ed56d57e94517!2sMasjid+Bogor+Baru!5e0!3m2!1sen!2sid!4v1565004229701!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                                     </div>
                                 </div>
-                                &nbsp;</br></br></br>
                             </div><!-- /.col -->
                         </div><!-- /.row (main row) -->
                     </section><!-- /.content -->
                 </div>
             </div>
-            <div class="swiper-slide scroll">
+            <div class="swiper-slide scroll" id="galeri">
                 <div class="col-sm-12" style="border:0px solid">
                     <section class="content-header col-sm-offset-4 col-sm-4">
                         <h1 class="judul-halaman col-sm-12">
@@ -420,7 +462,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                &nbsp;</br></br></br>
                                 <!-- /.box-footer -->
                                 <!-- </div> -->
                                 <!-- /.box -->
@@ -433,11 +474,16 @@
     </div>
     <div class="swiper-container gallery-thumbs">
         <div class="swiper-wrapper" style="border-top: 0px solid #fff;">
-            <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-home fa-2x"></span></div>
+            <!-- <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-home fa-2x"></span></div>
             <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-calendar fa-2x"></span></div>
             <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-comments-o fa-2x"></span></div>
             <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-map-marker fa-2x"></span></div>
-            <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-camera-retro fa-2x"></span></div>
+            <div class="swiper-slide" style="color: #fff;text-align: center;border-right: 0px solid #fff; margin-top: 5px"><span class="fa fa-camera-retro fa-2x"></span></div> -->
+            <a href="#home" style="color: #fff;text-align: center;border-right: 0px solid #fff; padding: 5px 20px 5px 20px; border-right: 1px solid #fff; width: 25%"><span class="fa fa-home fa-2x"></span></a>
+            <a href="#acara" style="color: #fff;text-align: center;border-right: 0px solid #fff; padding: 5px 20px 0px 20px; border-right: 1px solid #fff; width: 25%""><span class="fa fa-calendar fa-2x"></span></a>
+            <a href="#ucapan" style="color: #fff;text-align: center;border-right: 0px solid #fff; padding: 5px 20px 0px 20px; border-right: 1px solid #fff; width: 25%""><span class="fa fa-comments-o fa-2x"></span></a>
+            <a href="#lokasi" style="color: #fff;text-align: center;border-right: 0px solid #fff; padding: 5px 20px 0px 20px; border-right: 1px solid #fff; width: 25%""><span class="fa fa-map-marker fa-2x"></span></a>
+            <a href="#galeri" style="color: #fff;text-align: center;border-right: 0px solid #fff; padding: 5px 20px 0px 20px; border-right: 1px solid #fff; width: 25%""><span class="fa fa-camera-retro fa-2x"></span></a>
         </div>
     </div>
 
@@ -489,6 +535,25 @@
             document.getElementById("demo").innerHTML = "EXPIRED";
           }
         }, 1000);
+
+        var list = $(".list li");
+          var numToShow = 5;
+          var button = $("#next");
+          var numInList = list.length;
+          list.hide();
+          if (numInList > numToShow) {
+            button.show();
+          }
+          list.slice(0, numToShow).show();
+
+          button.click(function(){
+              var showing = list.filter(':visible').length;
+              list.slice(showing - 1, showing + numToShow).fadeIn();
+              var nowShowing = list.filter(':visible').length;
+              if (nowShowing >= numInList) {
+                button.hide();
+              }
+          });
     </script>
 </body>
 

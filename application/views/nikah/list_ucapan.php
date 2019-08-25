@@ -42,33 +42,33 @@
                     <div class="col-xs-12" style="border:0px solid;">
                         <!-- Horizontal Form -->
                         <div class="box box-widget">
-                <div class='box-footer box-comments'>
-                <?php
-                      if (isset($data_ucapan)) {
-                        foreach ($data_ucapan as $data) {
-                      ?>
-                  <div class='box-comment'>
-                    <!-- User image -->
-                    <!-- <img class='img-circle img-sm' src='<?php echo base_url("assets/img/user3-128x128.jpg"); ?>' alt='user image'> -->
-                    <div class='comment-text'>
-                    
-                      <span class="username">
-                        <?php echo $data->nama; ?>
-                        <!-- <span class='text-muted pull-right'>8:03 PM Today</span> -->
-                      </span><!-- /.username -->
-                      <?php
-                    echo $data->ucapan;
-                    ?>
-                      
-                    </div><!-- /.comment-text -->
-                  </div><!-- /.box-comment -->
-                  <?php 
-                    } 
-                      }
-                    
-                      ?>
-                </div><!-- /.box-footer -->
-              </div><!-- /.box -->
+                          <div class='box-footer box-comments'>
+                          <?php
+                                if (isset($data_ucapan)) {
+                                  foreach ($data_ucapan as $data) {
+                                ?>
+                            <div class='box-comment'>
+                              <!-- User image -->
+                              <!-- <img class='img-circle img-sm' src='<?php echo base_url("assets/img/user3-128x128.jpg"); ?>' alt='user image'> -->
+                              <div class='comment-text'>
+                              
+                                <span class="username">
+                                  <?php echo $data->nama; ?>
+                                  <!-- <span class='text-muted pull-right'>8:03 PM Today</span> -->
+                                </span><!-- /.username -->
+                                <?php
+                              echo $data->ucapan;
+                              ?>
+                                
+                              </div><!-- /.comment-text -->
+                            </div><!-- /.box-comment -->
+                            <?php 
+                              } 
+                                }
+                              
+                                ?>
+                          </div><!-- /.box-footer -->
+                        </div><!-- /.box -->
               </div>
                         &nbsp;</br></br></br>
                     </div><!-- /.col -->
