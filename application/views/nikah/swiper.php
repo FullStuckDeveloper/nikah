@@ -127,6 +127,7 @@
 
         .sub-judul {
             font-size: 16pt;
+            font-family: 'Architects Daughter';
         }
 
         .keterangan {
@@ -410,55 +411,58 @@
                                 &nbsp;
                                 <!-- Box Comment -->
                                 <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
-                                    <div class="box-header with-border">
-                                        <div class="user-block">
-                                            <img class="img-circle" src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image">
-                                            <span class="username"><a href="#">Anden & Aji</a></span>
-                                            <span class="description">2 March 2019</span>
-                                        </div>
-                                    </div>
                                     <!-- /.box-header -->
                                     <div class="box-body" style="border:0px solid">
                                         <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
-                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri1.png"); ?>" alt="Photo">&nbsp;
-                                            <p>Sebenernya sifat kita teh sama, layaknya anak kembar.</p>
-                                            <p>Kitu weh kita mah :)</p>
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri7.png"); ?>" alt="Photo">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
-                                    <div class="box-header with-border">
-                                        <div class="user-block">
-                                            <img class="img-circle" src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image">
-                                            <span class="username"><a href="#">Anden & Aji</a></span>
-                                            <span class="description">27 Oktober 2018</span>
-                                        </div>
-                                    </div>
                                     <!-- /.box-header -->
-                                    <div class="box-body">
+                                    <div class="box-body" style="border:0px solid">
                                         <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
-                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri2.png"); ?>" alt="Photo">&nbsp;
-                                            <p>Sama-sama anak pertama, ego nya gede pun sama-sama.</p>
-                                            <p>Jadi kalo lagi gak mau ngalah juga sama-sama.</p>
-                                            <p>Ribut sudah biasa, yang penting tetep sama-sama.</p>
-                                            <p>Happy Weekend!</p>
-                                            <p><strong>*Catatan:</strong> Apa yang kalian liat ini hanya saat lagi akur aja, karena kalo lagi gak akur, gak akan diposting :D</p>
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri4.png"); ?>" alt="Photo">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
-                                    <div class="box-header with-border">
-                                        <div class="user-block">
-                                            <img class="img-circle" src="https://img.icons8.com/color/96/000000/user-female.png" alt="User Image">
-                                            <span class="username"><a href="#">Anden & Aji</a></span>
-                                            <span class="description">26 Agustus 2018</span>
+                                    <!-- /.box-header -->
+                                    <div class="box-body" style="border:0px solid">
+                                        <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri1.png"); ?>" alt="Photo">
                                         </div>
                                     </div>
+                                </div>
+                                <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
                                     <!-- /.box-header -->
                                     <div class="box-body">
                                         <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
-                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri3.png"); ?>" alt="Photo">&nbsp;
-                                            <p>Abis dari kondangan, dan panas mencekam, ngadem dulu di tempat pertama kali kita ketemu (lagi).</p>
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri2.png"); ?>" alt="Photo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
+                                    <!-- /.box-header -->
+                                    <div class="box-body" style="border:0px solid">
+                                        <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri6.png"); ?>" alt="Photo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
+                                    <!-- /.box-header -->
+                                    <div class="box-body" style="border:0px solid">
+                                        <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri5.png"); ?>" alt="Photo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box box-widget" style="background-color: rgba(255,255,255, 0.7);">
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <div class="col-sm-offset-1 col-sm-10" style="border:0px solid">
+                                            <img class="img-responsive" src="<?php echo base_url("assets/img/galeri3.png"); ?>" alt="Photo">
                                         </div>
                                     </div>
                                 </div>
